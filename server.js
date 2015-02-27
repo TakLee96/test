@@ -7,6 +7,6 @@ app.use(logger);
 
 app.use(express.static('public'));
 
-app.listen(80, function () {
+app.listen(process.env.PORT || 80, function () {
   console.log("[Server] Listening on port %s\n", this.address().port);
 });

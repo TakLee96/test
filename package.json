@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/TakLee96/jiahangli/issues"
   },
-  "homepage": "https://github.com/TakLee96/jiahangli"
+  "homepage": "https://github.com/TakLee96/jiahangli",
+	"engine": {
+		"node": "^0.12.0"
+	}
 }
